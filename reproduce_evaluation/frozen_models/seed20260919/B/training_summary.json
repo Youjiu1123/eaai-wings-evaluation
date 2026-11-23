@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "method": "B",
+  "seed": 20260919,
+  "best_epoch": 150,
+  "last_epoch": 190,
+  "best_validation_fm_loss": 1.2923678159713745,
+  "updates": 6080,
+  "model_sha256": "6f5a44eb7c75b99c15a068bb2da67aadd3bd257c3cb5664882bff484253e387c",
+  "initialization_sha256": "47cdb442fd074994653b7f0ec542d2baad10ff62c63ea812698181e7b751ff8e",
+  "validation_batch_sha256": "4aed43328270eb8bc12c5d0781faddb2d7be1fe5368af18c043db9671f42b368",
+  "first_epoch_sampling_sha256": "26df8c846277775cc23dd6b29b0d8f186398e0cfcbaea9ec17cc19c8fcf103a9",
+  "full_sampling_sha256": "17528a7424a028b157693c03af7b2a5625e217d8a3fbe6c11d78e521a74a4146",
+  "train_forward_sample_rows": 2139172,
+  "validation_forward_sample_rows": 218880,
+  "elapsed_seconds": 29.003179899999996,
+  "parameters": 36740,
+  "peak_cuda_allocated_bytes": null,
+  "cpu_memory_note": "CPU peak memory not measured"
+}

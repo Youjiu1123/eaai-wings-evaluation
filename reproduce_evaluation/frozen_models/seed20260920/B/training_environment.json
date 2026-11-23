@@ -1,0 +1,9 @@
+{
+  "torch": "2.5.1",
+  "numpy": "2.0.2",
+  "pandas": "2.3.0",
+  "python": "3.9.23",
+  "device": "cpu",
+  "cuda": null,
+  "device_name": "Intel64 Family 6 Model 167 Stepping 1, GenuineIntel"
+}

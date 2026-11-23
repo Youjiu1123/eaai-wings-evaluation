@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "best_epoch": 119,
+  "last_epoch": 159,
+  "best_validation_negative_elbo": 1.1974254176020622,
+  "model_sha256": "2b5160652f3c1fee17fa20efa420e892aab2fc8ce5d5f32b832ec09105111892",
+  "parameters": 37136,
+  "training_seconds": 29.959139499999996,
+  "peak_cuda_allocated_bytes": null,
+  "note": "KL and decoder variance must be examined; weak performance is not proof all CVAEs are inferior"
+}

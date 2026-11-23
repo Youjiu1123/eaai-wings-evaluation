@@ -1,0 +1,7 @@
+method,input_role,strict_feasible,added_region_n,loose_failure,qualified,n
+B,loose,174,383,19,557,576
+B,strict,482,94,0,576,576
+CVAE,loose,157,414,5,571,576
+CVAE,strict,506,70,0,576,576
+LOCAL,loose,189,306,81,495,576
+LOCAL,strict,446,130,0,576,576

@@ -1,0 +1,16 @@
+﻿b_max,role,query_id
+11.25,strict,X_B1125_C20_S20
+11.25,center,X_B1125_C40_S40
+11.25,loose,X_B1125_C70_S70
+11.25,cruise_dominant,X_B1125_C40_S45
+11.25,slow_dominant,X_B1125_C45_S40
+13.75,strict,X_B1375_C20_S20
+13.75,center,X_B1375_C40_S40
+13.75,loose,X_B1375_C70_S70
+13.75,cruise_dominant,X_B1375_C40_S45
+13.75,slow_dominant,X_B1375_C45_S40
+15.75,strict,X_B1575_C20_S20
+15.75,center,X_B1575_C40_S40
+15.75,loose,X_B1575_C70_S70
+15.75,cruise_dominant,X_B1575_C40_S45
+15.75,slow_dominant,X_B1575_C45_S40

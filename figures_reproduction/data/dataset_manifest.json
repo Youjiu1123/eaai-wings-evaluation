@@ -1,0 +1,107 @@
+{
+  "created_utc": "2026-09-16T04:58:34.063028+00:00",
+  "fingerprint": {
+    "definition": {
+      "version": "P1-NACA4412-1.0",
+      "family": "NACA4412",
+      "area_m2": 16.0,
+      "geometry_bounds": {
+        "span": [
+          10.0,
+          16.0
+        ],
+        "sweep_c4": [
+          0.0,
+          10.0
+        ],
+        "taper": [
+          0.4,
+          1.0
+        ],
+        "twist_tip": [
+          -4.0,
+          0.0
+        ]
+      },
+      "parameter_units": {
+        "span": "m",
+        "sweep_c4": "deg",
+        "taper": "dimensionless",
+        "twist_tip": "deg"
+      },
+      "geometry": "Symmetric two-xsec trapezoid; planar-reference quarter-chord sweep; linear chord/twist; root twist=0; dihedral=0",
+      "moment_reference_xyz_m": [
+        0,
+        0,
+        0
+      ],
+      "moment_reference_chord_m": 1.3333333333333333,
+      "states": [
+        {
+          "state": "cruise",
+          "velocity": 60.0,
+          "altitude": 2000.0,
+          "lift_required_N": 7500.0
+        },
+        {
+          "state": "slow",
+          "velocity": 45.0,
+          "altitude": 2000.0,
+          "lift_required_N": 7500.0
+        }
+      ],
+      "alpha_bracket_deg": [
+        -4.0,
+        8.0
+      ],
+      "CL_tolerance": 1e-06,
+      "alpha_root_xtol_deg": 1e-08,
+      "grid_points": 5,
+      "local_slope_half_step_deg": 0.05,
+      "evaluator": {
+        "name": "AeroBuildup",
+        "model_size": "small",
+        "include_wave_drag": true,
+        "atmosphere_method": "AeroSandbox default",
+        "section_aerodynamics": "AeroBuildup default"
+      },
+      "sampling": {
+        "method": "scrambled Sobol",
+        "seed": 20260917,
+        "dimension": 4,
+        "bounds": "uniform independent parameters"
+      },
+      "split": {
+        "method": "SHA256(version|split|seed|sample_index), first 64 bits",
+        "fractions": [
+          0.8,
+          0.1,
+          0.1
+        ]
+      },
+      "label_scope": "Physical labels only; no b_max, drag-limit pairing, performance prefilter or optimizer",
+      "validity_scope": "Numerical/model-domain screening only; no attached-flow or experimental certification",
+      "reynolds_definition": "freestream V*unrotated section chord/kinematic viscosity; not local normal-flow Reynolds",
+      "source": "New parameter sampling, independent of legacy CSV and P0 dataset"
+    },
+    "environment": {
+      "python": "3.9.23",
+      "packages": {
+        "numpy": "2.0.2",
+        "pandas": "2.3.0",
+        "scipy": "1.13.1",
+        "aerosandbox": "4.2.8",
+        "neuralfoil": "0.3.2",
+        "casadi": "3.7.0"
+      }
+    },
+    "script_sha256": "8ff9294296dc2ad6fbbce3ba92be0aa36b3d3715199dc64fd8e27ee1f03471e2"
+  },
+  "planned_total": 2048,
+  "last_requested_utc": "2026-09-16T04:58:34.381744+00:00",
+  "planned_split_counts": {
+    "train": 1664,
+    "validation": 200,
+    "test": 184
+  }
+}
